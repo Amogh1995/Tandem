@@ -102,7 +102,7 @@ def test():
         inputresult0,inputresult90=apilabel1.ocrinput(filename)
         #print inputresult
     for filename in glob.glob(os.path.join(path, '*.pdf')):
-        #print "#####"
+        print "#####"
         #print filename
         outputresult0,outputresult90 = apilabel1.ocrinput(filename)
         #print outputresult
